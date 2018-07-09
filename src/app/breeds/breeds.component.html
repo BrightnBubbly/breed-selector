@@ -1,0 +1,11 @@
+<h2>
+  {{breed.name | uppercase}} De-tails
+</h2>
+<div><span>Name: </span>{{breed.name}}</div>
+<div><span>Description: </span>{{breed.description}}</div>
+
+<div>
+    <label>Comments:
+      <input [(ngModel)]="breed.comments" placeholder="comments">
+    </label>
+</div>
